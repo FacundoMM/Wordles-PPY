@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+     
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  p {
+    text-align: center;
+    margin-top: 30px;
+  } 
+  
+  #inpuut {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #55315a;
+  }
+     
+  #boton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #52175a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block
+}
+     
+.divS {
+    display: flex; 
+    justify-content: center; 
+    margin: 10px; 
+}
+
+.divP {
+    width: 30px; 
+    height: 30px; 
+    margin: 0 5px; 
+    text-align: center; 
+    line-height: 30px; 
+    border: 1px solid #000; 
+    border-radius: 5px;
+}
+
+     
+  .input-area{
+      margin: 30px;
+  }
